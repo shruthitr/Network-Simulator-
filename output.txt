@@ -1,0 +1,160 @@
+The set of devices in the network
+Server1 - MAC Address: 128.128.0.1, IP Address: 192.0.0.1
+Server2 - MAC Address: 128.128.0.2, IP Address: 192.0.0.2
+Switch1 - MAC Address: 128.128.0.3
+Switch2 - MAC Address: 128.128.0.4
+Switch3 - MAC Address: 128.128.0.5
+Client1 - MAC Address: 128.128.0.6, IP Address: 192.0.0.3
+Client2 - MAC Address: 128.128.0.7, IP Address: 192.0.0.4
+Client3 - MAC Address: 128.128.0.8, IP Address: 192.0.0.5
+Client4 - MAC Address: 128.128.0.9, IP Address: 192.0.0.6
+Client5 - MAC Address: 128.128.0.10, IP Address: 192.0.0.7
+Client6 - MAC Address: 128.128.0.11, IP Address: 192.0.0.8
+Application1 is running on Client1 and Server2
+128.128.0.6 128.128.0.4 128.128.0.3 128.128.0.2 
+
+Application2 is running on Client2 and Server1
+128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+
+Application3 is running on Client5 and Server1
+128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+
+Application4 is running on Client6 and Server1
+128.128.0.11 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+
+--------------- UNICAST TRANSMISSIONS START-----------
+Time in ms: 08:52:520, Packet 0 from Application1 transmitted through route 128.128.0.6 128.128.0.4 128.128.0.3 128.128.0.2 
+Time in ms: 08:53:095, Packet 1 from Application1 transmitted through route 128.128.0.6 128.128.0.4 128.128.0.3 128.128.0.2 
+--------------- UNICAST TRANSMISSIONS END-----------
+--------------- UNICAST TRANSMISSIONS START-----------
+Time in ms: 08:53:442, Packet 0 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:53:574, Packet 1 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:53:707, Packet 2 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:53:839, Packet 3 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:53:971, Packet 4 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:54:103, Packet 5 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+--------------- UNICAST TRANSMISSIONS END-----------
+--------------- UNICAST TRANSMISSIONS START-----------
+Time in ms: 08:54:236, Packet 0 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:54:241, Packet 1 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:54:245, Packet 2 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:54:249, Packet 3 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:54:253, Packet 4 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:54:257, Packet 5 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:54:260, Packet 6 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:54:265, Packet 7 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:54:269, Packet 8 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:54:273, Packet 9 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:54:277, Packet 10 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:54:295, Packet 11 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:54:300, Packet 12 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:54:305, Packet 13 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+--------------- UNICAST TRANSMISSIONS END-----------
+--------------- UNICAST TRANSMISSIONS START-----------
+Time in ms: 08:54:309, Packet 0 from Application4 transmitted through route 128.128.0.11 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:54:565, Packet 1 from Application4 transmitted through route 128.128.0.11 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:54:820, Packet 2 from Application4 transmitted through route 128.128.0.11 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+--------------- UNICAST TRANSMISSIONS END-----------
+--------------- UNICAST TRANSMISSIONS START-----------
+Time in ms: 08:55:074, Packet 0 from Application1 transmitted through route 128.128.0.6 128.128.0.4 128.128.0.3 128.128.0.2 
+Time in ms: 08:55:422, Packet 1 from Application1 transmitted through route 128.128.0.6 128.128.0.4 128.128.0.3 128.128.0.2 
+--------------- UNICAST TRANSMISSIONS END-----------
+--------------- UNICAST TRANSMISSIONS START-----------
+Time in ms: 08:55:770, Packet 0 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:55:902, Packet 1 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:56:034, Packet 2 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:56:167, Packet 3 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:56:299, Packet 4 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:56:431, Packet 5 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+--------------- UNICAST TRANSMISSIONS END-----------
+--------------- UNICAST TRANSMISSIONS START-----------
+Time in ms: 08:56:563, Packet 0 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:56:567, Packet 1 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:56:571, Packet 2 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:56:575, Packet 3 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:56:579, Packet 4 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:56:582, Packet 5 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:56:586, Packet 6 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:56:590, Packet 7 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:56:594, Packet 8 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:56:598, Packet 9 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:56:602, Packet 10 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:56:606, Packet 11 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:56:610, Packet 12 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:56:614, Packet 13 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+--------------- UNICAST TRANSMISSIONS END-----------
+--------------- UNICAST TRANSMISSIONS START-----------
+Time in ms: 08:56:618, Packet 0 from Application4 transmitted through route 128.128.0.11 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:56:874, Packet 1 from Application4 transmitted through route 128.128.0.11 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:57:128, Packet 2 from Application4 transmitted through route 128.128.0.11 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+--------------- UNICAST TRANSMISSIONS END-----------
+--------------- UNICAST TRANSMISSIONS START-----------
+Time in ms: 08:57:383, Packet 0 from Application1 transmitted through route 128.128.0.6 128.128.0.4 128.128.0.3 128.128.0.2 
+Time in ms: 08:57:729, Packet 1 from Application1 transmitted through route 128.128.0.6 128.128.0.4 128.128.0.3 128.128.0.2 
+--------------- UNICAST TRANSMISSIONS END-----------
+--------------- UNICAST TRANSMISSIONS START-----------
+Time in ms: 08:58:076, Packet 0 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:58:208, Packet 1 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:58:340, Packet 2 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:58:471, Packet 3 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:58:603, Packet 4 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:58:735, Packet 5 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+--------------- UNICAST TRANSMISSIONS END-----------
+--------------- UNICAST TRANSMISSIONS START-----------
+Time in ms: 08:58:868, Packet 0 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:58:873, Packet 1 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:58:877, Packet 2 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:58:880, Packet 3 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:58:884, Packet 4 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:58:888, Packet 5 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:58:892, Packet 6 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:58:896, Packet 7 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:58:899, Packet 8 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:58:903, Packet 9 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:58:907, Packet 10 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:58:911, Packet 11 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:58:915, Packet 12 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:58:919, Packet 13 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+--------------- UNICAST TRANSMISSIONS END-----------
+--------------- UNICAST TRANSMISSIONS START-----------
+Time in ms: 08:58:923, Packet 0 from Application4 transmitted through route 128.128.0.11 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:59:178, Packet 1 from Application4 transmitted through route 128.128.0.11 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 08:59:433, Packet 2 from Application4 transmitted through route 128.128.0.11 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+--------------- UNICAST TRANSMISSIONS END-----------
+--------------- UNICAST TRANSMISSIONS START-----------
+Time in ms: 08:59:689, Packet 0 from Application1 transmitted through route 128.128.0.6 128.128.0.4 128.128.0.3 128.128.0.2 
+Time in ms: 09:00:039, Packet 1 from Application1 transmitted through route 128.128.0.6 128.128.0.4 128.128.0.3 128.128.0.2 
+--------------- UNICAST TRANSMISSIONS END-----------
+--------------- UNICAST TRANSMISSIONS START-----------
+Time in ms: 09:00:386, Packet 0 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 09:00:519, Packet 1 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 09:00:651, Packet 2 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 09:00:784, Packet 3 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 09:00:916, Packet 4 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 09:01:059, Packet 5 from Application2 transmitted through route 128.128.0.7 128.128.0.4 128.128.0.3 128.128.0.1 
+--------------- UNICAST TRANSMISSIONS END-----------
+--------------- UNICAST TRANSMISSIONS START-----------
+Time in ms: 09:01:191, Packet 0 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 09:01:195, Packet 1 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 09:01:199, Packet 2 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 09:01:203, Packet 3 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 09:01:207, Packet 4 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 09:01:211, Packet 5 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 09:01:214, Packet 6 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 09:01:218, Packet 7 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 09:01:222, Packet 8 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 09:01:226, Packet 9 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 09:01:230, Packet 10 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 09:01:234, Packet 11 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 09:01:238, Packet 12 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 09:01:242, Packet 13 from Application3 transmitted through route 128.128.0.10 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+--------------- UNICAST TRANSMISSIONS END-----------
+--------------- UNICAST TRANSMISSIONS START-----------
+Time in ms: 09:01:245, Packet 0 from Application4 transmitted through route 128.128.0.11 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 09:01:501, Packet 1 from Application4 transmitted through route 128.128.0.11 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+Time in ms: 09:01:756, Packet 2 from Application4 transmitted through route 128.128.0.11 128.128.0.5 128.128.0.4 128.128.0.3 128.128.0.1 
+--------------- UNICAST TRANSMISSIONS END-----------
+--------------- UNICAST TRANSMISSIONS START-----------
+Time in ms: 09:02:011, Packet 0 from Application1 transmitted through route 128.128.0.6 128.128.0.4 128.128.0.3 128.128.0.2 
+Time in ms: 09:02:358, Packet 1 from Application1 transmitted through route 128.128.0.6 128.128.0.4 128.128.0.3 128.128.0.2 
+--------------- UNICAST TRANSMISSIONS END-----------
